@@ -1,0 +1,93 @@
+﻿Build started 04.01.2013 16:49:52.
+     1>Project "d:\Projects\LonelyIsland\src + bin (whole project)\LonelyIsland\LonelyIsland.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Bird.cpp BmpLoad.cpp Camera.cpp Cloud.cpp Hero.cpp main.cpp Platforms.cpp Shader.cpp Snow.cpp Sprite.cpp Terrain.cpp Textures.cpp
+         Textures.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\textures.cpp(23): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+         Terrain.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(15): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(43): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(44): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(110): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(114): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(118): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(122): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(126): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(144): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(159): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(160): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(158): warning C4101: 'x' : unreferenced local variable
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(158): warning C4101: 'z' : unreferenced local variable
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\terrain.cpp(195): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Sprite.cpp
+         Snow.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\snow.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\snow.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\snow.cpp(60): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\snow.cpp(62): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Shader.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\shader.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Platforms.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\platforms.cpp(17): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(200): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(276): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(277): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(279): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(331): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(332): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(388): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(389): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(455): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(539): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\main.cpp(542): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+         Hero.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\hero.cpp(33): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\hero.cpp(62): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\hero.cpp(63): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Cloud.cpp
+         Camera.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(106): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(108): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(190): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(191): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(254): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(255): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(271): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(272): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(279): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(285): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(286): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\camera.cpp(287): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BmpLoad.cpp
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\bmpload.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\projects\lonelyisland\src + bin (whole project)\lonelyisland\bmpload.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Bird.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\LonelyIsland\src + bin (whole project)\Debug\LonelyIsland.exe" /INCREMENTAL /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\LonelyIsland\src + bin (whole project)\Debug\LonelyIsland.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\LonelyIsland\src + bin (whole project)\Debug\LonelyIsland.lib" /MACHINE:X86 Debug\Bird.obj
+         Debug\BmpLoad.obj
+         Debug\Camera.obj
+         Debug\Cloud.obj
+         Debug\Hero.obj
+         Debug\main.obj
+         Debug\Platforms.obj
+         Debug\Shader.obj
+         Debug\Snow.obj
+         Debug\Sprite.obj
+         Debug\Terrain.obj
+         Debug\Textures.obj
+         LonelyIsland.vcxproj -> D:\Projects\LonelyIsland\src + bin (whole project)\Debug\LonelyIsland.exe
+     1>Done Building Project "d:\Projects\LonelyIsland\src + bin (whole project)\LonelyIsland\LonelyIsland.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.11
